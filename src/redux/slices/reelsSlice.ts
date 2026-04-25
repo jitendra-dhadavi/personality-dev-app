@@ -1,7 +1,7 @@
 import { createSlice, type PayloadAction } from "@reduxjs/toolkit";
 
 export interface Reel {
-  id: string;
+  id: string | number;
   videoUrl: string;
   title: string;
   description: string;

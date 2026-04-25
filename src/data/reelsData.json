@@ -1,20 +1,20 @@
 [
   {
-    "id": "reel-1",
+    "id": 1,
     "videoUrl": "/videos/reel-1.mp4",
-    "title": "2-minute confidence reset",
-    "description": "Stand tall, breathe deep, and speak one honest sentence today."
+    "title": "Confidence Tip",
+    "description": "Believe in yourself."
   },
   {
-    "id": "reel-2",
+    "id": 2,
     "videoUrl": "/videos/reel-2.mp4",
-    "title": "Discipline > motivation",
-    "description": "Small promises kept daily build unstoppable momentum."
+    "title": "Discipline > Motivation",
+    "description": "Small daily consistency beats big bursts of effort."
   },
   {
-    "id": "reel-3",
+    "id": 3,
     "videoUrl": "/videos/reel-3.mp4",
-    "title": "Communication micro-skill",
-    "description": "Pause for 1 second before replying—clarity improves instantly."
+    "title": "Communication Micro-skill",
+    "description": "Pause one second before replying—clarity improves instantly."
   }
 ]
