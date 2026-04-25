@@ -1,0 +1,73 @@
+{
+  "categories": [
+    {
+      "id": "communication",
+      "title": "Communication Skills",
+      "description": "Master the art of clear, confident, and persuasive communication.",
+      "icon": "MessageCircle",
+      "color": "from-violet-500 to-fuchsia-500"
+    },
+    {
+      "id": "leadership",
+      "title": "Leadership",
+      "description": "Develop the qualities that inspire and guide others to success.",
+      "icon": "Crown",
+      "color": "from-amber-500 to-orange-500"
+    },
+    {
+      "id": "time-management",
+      "title": "Time Management",
+      "description": "Plan, prioritize, and execute tasks with maximum efficiency.",
+      "icon": "Clock",
+      "color": "from-emerald-500 to-teal-500"
+    },
+    {
+      "id": "confidence",
+      "title": "Confidence",
+      "description": "Build unshakable self-belief and a positive mindset.",
+      "icon": "Sparkles",
+      "color": "from-pink-500 to-rose-500"
+    },
+    {
+      "id": "emotional-intelligence",
+      "title": "Emotional Intelligence",
+      "description": "Understand and manage emotions to build stronger relationships.",
+      "icon": "Heart",
+      "color": "from-sky-500 to-indigo-500"
+    },
+    {
+      "id": "productivity",
+      "title": "Productivity",
+      "description": "Adopt habits and systems that maximize daily output.",
+      "icon": "Zap",
+      "color": "from-lime-500 to-green-500"
+    }
+  ],
+  "tasks": [
+    { "id": "c1", "categoryId": "communication", "title": "Practice active listening for 15 minutes", "completed": false },
+    { "id": "c2", "categoryId": "communication", "title": "Record yourself speaking and review", "completed": true },
+    { "id": "c3", "categoryId": "communication", "title": "Read an article on body language", "completed": false },
+    { "id": "c4", "categoryId": "communication", "title": "Have a conversation with a stranger", "completed": false },
+
+    { "id": "l1", "categoryId": "leadership", "title": "Read 'Start with Why' chapter 1", "completed": true },
+    { "id": "l2", "categoryId": "leadership", "title": "Lead a small team meeting", "completed": false },
+    { "id": "l3", "categoryId": "leadership", "title": "Give constructive feedback to a peer", "completed": false },
+
+    { "id": "t1", "categoryId": "time-management", "title": "Plan tomorrow the night before", "completed": true },
+    { "id": "t2", "categoryId": "time-management", "title": "Try the Pomodoro technique (4 cycles)", "completed": true },
+    { "id": "t3", "categoryId": "time-management", "title": "Eliminate one time-wasting habit", "completed": false },
+    { "id": "t4", "categoryId": "time-management", "title": "Use a task prioritization matrix", "completed": false },
+
+    { "id": "cf1", "categoryId": "confidence", "title": "Write 3 daily affirmations", "completed": false },
+    { "id": "cf2", "categoryId": "confidence", "title": "Step out of comfort zone once today", "completed": false },
+    { "id": "cf3", "categoryId": "confidence", "title": "Power pose for 2 minutes", "completed": true },
+
+    { "id": "e1", "categoryId": "emotional-intelligence", "title": "Journal your emotions for the day", "completed": false },
+    { "id": "e2", "categoryId": "emotional-intelligence", "title": "Practice empathy in a tough conversation", "completed": false },
+    { "id": "e3", "categoryId": "emotional-intelligence", "title": "Meditate for 10 minutes", "completed": true },
+
+    { "id": "p1", "categoryId": "productivity", "title": "Declutter your workspace", "completed": true },
+    { "id": "p2", "categoryId": "productivity", "title": "Batch similar tasks together", "completed": false },
+    { "id": "p3", "categoryId": "productivity", "title": "Review weekly goals", "completed": false }
+  ]
+}
