@@ -3,6 +3,7 @@ import { combineReducers, configureStore } from "@reduxjs/toolkit";
 import categoriesReducer from "./slices/categoriesSlice";
 import tasksReducer from "./slices/tasksSlice";
 import themeReducer from "./slices/themeSlice";
+import reelsReducer from "./slices/reelsSlice";
 
 const STORAGE_KEY = "personality-dev-state-v1";
 
@@ -10,6 +11,7 @@ const rootReducer = combineReducers({
   categories: categoriesReducer,
   tasks: tasksReducer,
   theme: themeReducer,
+  reels: reelsReducer,
 });
 
 export type RootState = ReturnType<typeof rootReducer>;
