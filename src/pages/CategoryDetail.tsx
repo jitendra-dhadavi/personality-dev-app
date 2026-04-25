@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom";
 import { ArrowLeft, ListChecks } from "lucide-react";
 import { useMemo, useState } from "react";
 import Navbar from "@/components/Navbar";
+import Seo from "@/components/Seo";
 import ProgressBar from "@/components/ProgressBar";
 import TaskItem from "@/components/TaskItem";
 import AddTaskForm from "@/components/AddTaskForm";
@@ -28,6 +29,7 @@ const CategoryDetail = () => {
   if (!category) {
     return (
       <div className="min-h-screen bg-background">
+        <Seo title="Category | Personality Development App" description="Category not found." />
         <Navbar />
         <main className="container py-20 text-center">
           <h1 className="text-2xl font-bold text-foreground mb-3">Category not found</h1>
@@ -41,6 +43,10 @@ const CategoryDetail = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title={`${category.title} | Personality Development App`}
+        description={`Work on ${category.title}: ${category.description}`}
+      />
       <Navbar />
 
       <main className="container py-8 sm:py-12 max-w-3xl">

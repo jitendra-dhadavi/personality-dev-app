@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import ReelItem from "@/components/Reels/ReelItem.jsx";
+import Seo from "@/components/Seo";
 import { useAppDispatch, useAppSelector } from "@/redux/hooks";
 import { setActiveReel, setReels } from "@/redux/slices/reelsSlice";
 import reelsData from "@/data/reelsData.json";
@@ -40,6 +41,10 @@ export default function ReelsPage() {
 
   return (
     <div className="h-screen overflow-hidden flex justify-center items-center bg-black text-white">
+      <Seo
+        title="Reels | Personality Development App"
+        description="Watch short self-improvement reels and build better habits daily."
+      />
       {/* Single scroll container (the ONLY scrollable element) */}
       <div className="relative h-screen w-full max-w-[380px] bg-black overflow-hidden sm:rounded-xl sm:border sm:border-white/10 sm:shadow-2xl">
         {/* Overlay top bar (does NOT affect layout height) */}

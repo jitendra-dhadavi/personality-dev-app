@@ -1,5 +1,6 @@
 // Dashboard page — overall progress + grid of categories
 import Navbar from "@/components/Navbar";
+import Seo from "@/components/Seo";
 import CategoryCard from "@/components/CategoryCard";
 import ProgressBar from "@/components/ProgressBar";
 import { useAppSelector } from "@/redux/hooks";
@@ -15,6 +16,10 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
+      <Seo
+        title="Dashboard | Personality Development App"
+        description="Track your personality development progress across key growth areas."
+      />
       <Navbar />
 
       <main className="container py-10 sm:py-14">
